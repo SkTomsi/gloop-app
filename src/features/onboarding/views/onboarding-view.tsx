@@ -144,7 +144,7 @@ export function OnboardingView() {
   const handleContinue = useCallback(() => {
     // Final screen → dashboard
     if (step === TOTAL_STEPS - 1) {
-      router.push("/u/home");
+      router.push("/");
       return;
     }
 

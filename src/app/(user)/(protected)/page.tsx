@@ -15,10 +15,5 @@ export default async function Home() {
     redirect("/login");
   }
 
-  return (
-    <div>
-      Consumer Home Page
-      <pre>{JSON.stringify(user, null, 2)}</pre>
-    </div>
-  );
+  return <div className="prose font-mono">{JSON.stringify(user, null, 1)}</div>;
 }

@@ -16,7 +16,7 @@ export default async function page() {
 
   if (session.user.isOnboarded) {
     logger.info("User already onboarded, redirecting to home");
-    redirect("/u/home");
+    redirect("/");
   }
 
   return <OnboardingView />;

@@ -39,7 +39,7 @@ export function LoginForm() {
       <div className="flex flex-col gap-6 h-fit w-full  bg-white dark:bg-background rounded-2xl px-4 py-12 justify-center">
         <div className="size-24  flex flex-col items-center justify-center mx-auto">
           <Image
-            src={"/assets/mascot/1.png"}
+            src={"/assets/mascot/1.webp"}
             alt="mascot"
             width={200}
             height={200}

@@ -16,8 +16,8 @@ export function LoginInGoogleButton() {
         logger.info("Logging in with Google");
         signIn.social({
           provider: "google",
-          callbackURL: "/u/home",
-          newUserCallbackURL: "/u/onboarding",
+          callbackURL: "/",
+          newUserCallbackURL: "/onboarding",
         });
       }}
     >

@@ -30,7 +30,7 @@ export function OnboardingPrompt() {
       <DrawerContent className="max-w-md mx-auto">
         <div className="p-6 flex flex-col items-center justify-center space-y-3">
           <Image
-            src={"/assets/mascot/1.png"}
+            src={"/assets/mascot/1.webp"}
             alt="Gloop"
             width={200}
             height={200}
@@ -43,7 +43,7 @@ export function OnboardingPrompt() {
         </div>
         <DrawerFooter>
           <DrawerClose className="p-2" asChild>
-            <Link href={"/u/onboarding"}>
+            <Link href={"/onboarding"}>
               <AccentButton className="w-full">
                 Take me to onboarding
               </AccentButton>

@@ -25,7 +25,7 @@ export function Introduction() {
     <>
       <div className="flex flex-col mb-4">
         <Image
-          src="/assets/mascot/1.png"
+          src="/assets/mascot/1.webp"
           alt="Intro"
           width={200}
           height={200}
@@ -465,7 +465,7 @@ export function AllDone() {
   return (
     <div className="flex flex-col items-center justify-center h-full w-full py-6 gap-8 text-center">
       <Image
-        src="/assets/mascot/1.png"
+        src="/assets/mascot/1.webp"
         alt="Gloop celebrating"
         width={180}
         height={180}
