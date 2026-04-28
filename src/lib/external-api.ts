@@ -1,7 +1,6 @@
 import axios from "axios";
 
 import { env } from "@/lib/env";
-import { auth } from "./auth";
 import { authClient } from "./auth-client";
 
 export const externalApi = axios.create({

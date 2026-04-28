@@ -3,7 +3,6 @@ import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
 import logger from "@/lib/logger";
 import { caller } from "@/trpc/server";
-import GetTokenButton from "./get-token";
 
 export default async function Home() {
   const user = await caller.user.getUser();
@@ -19,7 +18,6 @@ export default async function Home() {
   return (
     <div className="prose font-mono flex flex-col gap-4">
       {JSON.stringify(user, null, 1)}
-      <GetTokenButton />
     </div>
   );
 }
