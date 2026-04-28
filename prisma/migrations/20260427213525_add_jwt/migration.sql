@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "user" ALTER COLUMN "conditions" SET DEFAULT ARRAY[]::TEXT[],
+ALTER COLUMN "goals" SET DEFAULT ARRAY[]::TEXT[];
